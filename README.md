@@ -7,3 +7,4 @@ The only objectives of this repository is to test and check the installation of 
 - Php
 - Ruby
 - Java
+- Powershell
