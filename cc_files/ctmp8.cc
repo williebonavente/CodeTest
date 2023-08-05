@@ -61,7 +61,7 @@ int main()
         else if (option == 4)
         {
             setConsoleColor(YELLOW);
-            std::cout << "You selected Yellow!" << 1std::endl;
+            std::cout << "You selected Yellow!" << std::endl;
             setConsoleColor(WHITE);
         }
         else if (option == 5)
