@@ -1,28 +1,31 @@
 import random
 
-def monte_carlo_method(n):
-    
+def monte_carlo_probability(rolls, target=6):
     """
-    Calculates the probability of rolling a 6 on a die using the Monte Carlo Method.
-    
-    Args:
-        n: The number of times to roll the die.
-    
-    Returns:
-        The probability of rolling a 6.
-    
-    """
-    
-    roll = 0
-    sixes = 6
+    Calculates the probability of rolling a specific number on a die using the Monte Carlo Method.
 
-    for i in range(n):
+    Args:
+        rolls (int): The number of times to roll the die.
+        target (int): The number to calculate the probability for. Default is 6.
+
+    Returns:
+        float: The probability of rolling the target number.
+    """
+
+    successful_rolls = 0
+
+    for _ in range(rolls):
         roll = random.randint(1, 6)
-        if roll == 6:
-            sixes += 1
-    
-    probability = sixes / n 
+        if roll == target:
+            successful_rolls += 1
+
+    probability = successful_rolls / rolls
     return probability
 
 if __name__ == "__main__":
-    print(monte_carlo_method(1000))
+    num_rolls = 1000
+    target_number = 6
+
+    probability = monte_carlo_probability(num_rolls, target_number)
+
+    print(f"The probability of rolling a {target_number} on a die after {num_rolls} rolls is: {probability:.4f}")
