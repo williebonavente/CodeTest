@@ -92,5 +92,20 @@
         "./py",
         "-p",
         "*_test.py"
+    ],
+    "cSpell.words": [
+        "cumsum",
+        "edgecolors",
+        "facecolor",
+        "figsize",
+        "linestyle",
+        "linestyles",
+        "linewidth",
+        "Linewidths",
+        "marksizes",
+        "pyplot",
+        "randn",
+        "xlabel",
+        "ylabel"
     ]
 }
