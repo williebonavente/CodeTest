@@ -102,10 +102,12 @@
         "linestyles",
         "linewidth",
         "Linewidths",
+        "lmplot",
         "marksizes",
         "pyplot",
         "randn",
         "relplot",
+        "timepoint",
         "xlabel",
         "ylabel"
     ]
