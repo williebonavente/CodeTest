@@ -9,7 +9,7 @@ tips = sns.load_dataset("tips")
 
 # Create a visualization
 sns.relplot(
-    data= tips,
-    x = "total bill", y = "tip", col = "time",
-    hue =  "smoker", style = "smoker", size = "size"
+    data=tips,
+    x="total_bill", y="tip", col="time",
+    hue="smoker", style="smoker", size="size",
 )

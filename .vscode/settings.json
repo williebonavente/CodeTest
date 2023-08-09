@@ -105,6 +105,7 @@
         "marksizes",
         "pyplot",
         "randn",
+        "relplot",
         "xlabel",
         "ylabel"
     ]
