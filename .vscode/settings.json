@@ -94,10 +94,12 @@
         "*_test.py"
     ],
     "cSpell.words": [
+        "catplot",
         "cumsum",
         "edgecolors",
         "facecolor",
         "figsize",
+        "jointplot",
         "linestyle",
         "linestyles",
         "linewidth",
