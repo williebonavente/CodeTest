@@ -9,7 +9,6 @@ The only objectives of this repository are to test and check the installation of
 - Java
 - Powershell
 
-
 The principal objectives of this repository are as follows:
 
 Testing Programming Language Installation: Each code snippet within the repository is designed to check whether or not the corresponding programming language is set up correctly on a pc. Running these code snippets can help customers verify that their development surroundings are set up properly for the respective language.
