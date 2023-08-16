@@ -14,14 +14,3 @@ def riemann_zeta(s, terms=100):
     for n in range(1, terms+1):
         result += 1 / (n**s)
     return result
-
-def main():
-
-    # Example usage
-    s = 1 + 2j
-    result = riemann_zeta(s)
-    print(f"zeta({s}) =", result)
-    
-
-if __name__ == "__main___":
-    main()
