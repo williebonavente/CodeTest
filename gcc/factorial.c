@@ -4,10 +4,14 @@ int main(void)
 {
     int n;
     scanf("%d", &n);
-    for (int i = 0; i < n; i++) {
-        int a, b;
-        scanf("%d %d", &a, &b);
-        printf("%d\n", a + b);
-    }
+    int i;
+    // for (i = 0; i < n; i--)
+    // {
+
+// implement here
+    // }
+
+    printf("%d", n);
     return 0;
 }
+
