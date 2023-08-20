@@ -25,6 +25,5 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add .
           git commit -m "Auto-commit: Update files"
           git push
