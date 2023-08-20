@@ -3,7 +3,7 @@ name: Auto Commit
 on:
   push:
     branches:
-      - main # Change this to your main branch name
+      - master # Change this to your main branch name
 
 jobs:
   auto_commit:
@@ -15,8 +15,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "your.email@example.com"
+          git config --global user.name "Willie M. Bonavente"
+          git config --global user.email "williebonavente@gmail.com"
 
       - name: Make changes
         run: |
