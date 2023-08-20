@@ -17,12 +17,7 @@ jobs:
         run: |
           git config --global user.name "Willie M. Bonavente"
           git config --global user.email "williebonavente@gmail.com"
-
-      - name: Make changes
-        run: |
-          # Modify or generate files as needed
-          echo "New content" > myfile.txt
-
+          
       - name: Commit and push changes
         run: |
           git commit -m "Auto-commit: Update files"
