@@ -116,11 +116,13 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none",
     "python.analysis.extraPaths": [
         "./trash_codes-1",
         "./trash_codes-1",
         "./trash_codes-1",
         "./trash_codes-1"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
     ]
 }
