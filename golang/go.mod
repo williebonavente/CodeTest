@@ -1,3 +1,3 @@
-module example/golang
+module example/main
 
 go 1.21.0
