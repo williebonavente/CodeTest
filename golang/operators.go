@@ -19,3 +19,20 @@ func main24() {
 
 	fmt.Println(sum3)
 }
+ 
+/*   
++ Add
+- sub
+*  Multiply
+/ Division
+% Modulus
+++ Increment 
+-- Decrement
+*/
+
+
+func main25() {
+	var x = 10
+	x += 5
+	fmt.Println(x)
+}
