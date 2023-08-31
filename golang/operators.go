@@ -36,3 +36,10 @@ func main25() {
 	x += 5
 	fmt.Println(x)
 }
+
+// Boolean, Logical,  Bitwise
+func main26() {
+	var x = 5
+	var y = 3
+	fmt.Println(x > y)
+}
