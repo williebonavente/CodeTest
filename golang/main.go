@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Println(" ")
+	fmt.Println("\t***Output of the current function***")
 	// main1()
 	// main2()
 	// main3()
@@ -18,6 +19,15 @@ func main() {
 	// main11()
 	// main12()
 	// *** array ***
-	main13()
+	// main13()
+	// main14()
+	// main15()
+	// main16()
+	// main17()
+	// main18()
+	// main19()
+	fmt.Printf("> ")
+	main20()
+	fmt.Println(" ")
 
 }
