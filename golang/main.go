@@ -26,8 +26,18 @@ func main() {
 	// main17()
 	// main18()
 	// main19()
+	// main20()
+	// main21()
+	// main22()
+	//  *** Math, Logical, Bitwise Operators
+	// main23()
+	// main24()
+	// main25()
+	// main26()
+	// main27()
+	// main28()
 	fmt.Printf("> ")
-	main20()
+	main29()
 	fmt.Println(" ")
 
 }
