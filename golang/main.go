@@ -10,12 +10,14 @@ func main() {
 	// main4()
 	// main5()
 	// main6()
-	// data types
+	// *** data types ***
 	// main7()
 	// main8()
 	// main9()
 	// main10()
 	// main11()
-	main12()
+	// main12()
+	// *** array ***
+	main13()
 
 }
