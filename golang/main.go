@@ -47,9 +47,12 @@ func main() {
 	// main36("Willie")
 	// main37("Willie", 23)
 	// fmt.Println(main38(1, 3))
+	// total := main39(1, 5)
+	// fmt.Println(total)
+	// fmt.Println(main40(2, " Willie"))
+	// main41_recur(1)
 	fmt.Printf(" ")
-	total := main39(1, 5)
-	fmt.Println(total)
+	fmt.Println(main42_factorialRecursive(5))
 	fmt.Println(" ")
 
 }
