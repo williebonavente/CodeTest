@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println(" ")
-	fmt.Println("\t***Output of the current function***")
 	// main1()
 	// main2()
 	// main3()
@@ -44,10 +43,13 @@ func main() {
 	// main33()
 	// main34()
 	//..function calling with -params & args
-	fmt.Printf("> ")
-	main35()
-	main36("Willie")
-	main37("Willie", 23)
+	// main35()
+	// main36("Willie")
+	// main37("Willie", 23)
+	// fmt.Println(main38(1, 3))
+	fmt.Printf(" ")
+	total := main39(1, 5)
+	fmt.Println(total)
 	fmt.Println(" ")
 
 }
