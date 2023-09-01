@@ -36,8 +36,12 @@ func main() {
 	// main26()
 	// main27()
 	// main28()
+	// main29()
+	//..switch
+	// main30()
+	// main31()
 	fmt.Printf("> ")
-	main29()
+	main32()
 	fmt.Println(" ")
 
 }
