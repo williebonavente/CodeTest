@@ -51,8 +51,8 @@ func main() {
 	// fmt.Println(total)
 	// fmt.Println(main40(2, " Willie"))
 	// main41_recur(1)
+	// fmt.Println(main42_factorialRecursive(5))
 	fmt.Printf(" ")
-	fmt.Println(main42_factorialRecursive(5))
 	fmt.Println(" ")
 
 }
