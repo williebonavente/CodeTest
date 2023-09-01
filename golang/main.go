@@ -37,13 +37,17 @@ func main() {
 	// main27()
 	// main28()
 	// main29()
-	//..switch
+	//..switch statement
 	// main30()
 	// main31()
 	// main32()
 	// main33()
+	// main34()
+	//..function calling with -params & args
 	fmt.Printf("> ")
-	main34()
+	main35()
+	main36("Willie")
+	main37("Willie", 23)
 	fmt.Println(" ")
 
 }
