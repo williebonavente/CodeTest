@@ -109,3 +109,22 @@ func main52() {
 		fmt.Printf("%v: %v ", k, v)
 	}
 }
+
+// Iterating Maps - specific order
+
+func main53() {
+	a := map[string]int{"one": 1, "two": 2, "three": 3, "four": 4}
+
+	var b []string //defining the order
+	b = append(b, "one", "two", "three", "four")
+
+	for k, v := range a { // loop with no order
+		fmt.Printf("%v : %v, ",k, v)
+	}
+
+	fmt.Println()
+
+	for _, element := range b { // Loop with order 
+		fmt.Printf("%v : %v, ", element, a[element])
+	}
+}
