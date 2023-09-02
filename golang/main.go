@@ -52,8 +52,16 @@ func main() {
 	// fmt.Println(main40(2, " Willie"))
 	// main41_recur(1)
 	// fmt.Println(main42_factorialRecursive(5))
+	//** structs
+	// main43()
+	// ** maps = dict in python
+	// main44();
+	// main45()
+	// main46()
+	// main47()
+	// main48()
 	fmt.Printf(" ")
-	main43()
+	main49()
 	fmt.Println(" ")
 
 }
