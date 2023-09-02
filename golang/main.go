@@ -53,6 +53,7 @@ func main() {
 	// main41_recur(1)
 	// fmt.Println(main42_factorialRecursive(5))
 	fmt.Printf(" ")
+	main43()
 	fmt.Println(" ")
 
 }
