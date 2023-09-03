@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println(" ")
-	fmt.Println("\t***Output of the current function***")
 	// main1()
 	// main2()
 	// main3()
@@ -36,8 +35,37 @@ func main() {
 	// main26()
 	// main27()
 	// main28()
-	fmt.Printf("> ")
-	main29()
+	// main29()
+	//..switch statement
+	// main30()
+	// main31()
+	// main32()
+	// main33()
+	// main34()
+	//..function calling with -params & args
+	// main35()
+	// main36("Willie")
+	// main37("Willie", 23)
+	// fmt.Println(main38(1, 3))
+	// total := main39(1, 5)
+	// fmt.Println(total)
+	// fmt.Println(main40(2, " Willie"))
+	// main41_recur(1)
+	// fmt.Println(main42_factorialRecursive(5))
+	//** structs
+	// main43()
+	// ** maps = dict in python
+	// main44();
+	// main45()
+	// main46()
+	// main47()
+	// main48()
+	// main49()
+	// main50()
+	// main51()
+	// main52()
+	fmt.Printf(" ")
+	main53()
 	fmt.Println(" ")
 
 }
