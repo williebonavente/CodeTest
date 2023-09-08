@@ -10,9 +10,7 @@ long long binary_exponentiation(long long a, long long n, long long mod)
     while (n > 0)
     {
         if (n % 2 == 1)
-        {
             result = (result * a) % mod;
-        }
         a = (a * a) % mod;
         n /= 2;
     }
@@ -25,9 +23,7 @@ bool fermat_little_theorem(long long a, long long b, long long p)
 {
     // Ensure p is a prime number, b divides a, and p doesn't divide b
     if (p <= 1 || b <= 0 || b >= p || a % b != 0)
-    {
         return false;
-    }
 
     // Using binary exponentiation method, O(log(p))
     long long result1 = (a / b) % p;
@@ -46,13 +42,9 @@ int main()
 
     // Using Fermat's Little Theorem to check if (a / b) % p equals a * (b ^ (p - 2)) % p
     if (fermat_little_theorem(a, b, p))
-    {
         cout << "(a / b) % p equals a * (b ^ (p - 2)) % p" << endl;
-    }
     else
-    {
         cout << "(a / b) % p does not equal a * (b ^ (p - 2)) % p" << endl;
-    }
 
     return 0;
 }
