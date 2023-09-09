@@ -112,3 +112,38 @@ There are three blocks defined here that will be overridden in the other templat
 A useful pattern used here is to place `{% block title %}` inside `{% block header %}`. This will set the title block and then output the value of it into the header block, so that both the window and page share the same title without writing it twice.
 
 The `input` tags are using the `required` attribute here. This tells the browser not to submit the form until those fields are filled in. If the user is using an older browser that doesn’t support that attribute, or if they are using something besides a browser to make requests, you still want to validate the data in the Flask view. It’s important to always fully validate the data on the server, even if the client does some validation as well.
+
+## The Blueprint
+
+### Create Blueprint
+
+Unlike the auth blueprint, the blog blueprint does not have a `url_prefix`. So the **index** view will be at `/`, the create view at `/create`, and so on. The blog is the main feature of Flaskr, so it makes sense that the blog index will be the main index.
+
+However, the endpoint for the index view defined below will be `blog.index`. Some of the authentication views referred to a plain **index** endpoint. `app.add_url_rule()` associates the endpoint name **'index'** with the `/` url so that `url_for('index')` or `url_for('blog.index')` will both work, generating the same `/` URL either way.
+
+### Index
+
+When a user is logged in, the header block adds a link to the `create view`. When the user is the author of a post, they’ll see an “Edit” link to the **update** view for that post. **loop.last** is a special variable available inside Jinja for loops. It’s used to display a line after each post except the last one, to visually separate them.
+
+### Create
+
+The `create` view works the same as the auth `register` view. Either the form is displayed, or the posted data is validated and the post is added to the database or an error is shown.
+
+The `login_required` decorator you wrote earlier is used on the blog views. A user must be logged in to visit these views, otherwise they will be redirected to the login page.
+
+### Update
+
+Both the `update` and `delete` views will need to fetch a `post` by `id` and check if the author matches the logged in user. To avoid duplicating code, you can write a function to get the `post` and call it from each view.
+
+`abort()` will raise a special exception that returns an HTTP status code. It takes an optional message to show with the error, otherwise a default message is used. `404` means "Not Found", and `403` means "Forbidden". (401 means "Unauthorized", but you redirect to the login page instead of returning that status.)
+
+The `check_author` argument is defined so that the function can be used to get a `post` without checking the author. This would be useful if you wrote a view to show an individual post on a page, where the user doesn’t matter because they’re not modifying the post.
+
+The `create` and `update` views look very similar. The main difference is that the `update` view uses a post object and an `UPDATE` query instead of an `INSERT`. With some clever refactoring, you could use one view and template for both actions, but for the tutorial it’s clearer to keep them separate.
+
+`update.html` \
+The pattern `{{ request.form['title'] or post['title'] }}` is used to choose what data appears in the form. When the form hasn’t been submitted, the original post data appears, but if invalid form data was posted you want to display that so the user can fix the error, so request.form is used instead. request is another variable that’s automatically available in templates.
+
+### Delete
+
+The delete view doesn’t have its own template, the delete button is part of `update.html` and posts to the `/<id>/delete` URL. Since there is no template, it will only handle the **POST** method and then redirect to the `index` view.
