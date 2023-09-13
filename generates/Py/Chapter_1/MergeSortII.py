@@ -27,3 +27,10 @@ def merge_sort(arr):
             arr[k] = right_half[j]
             j += 1
             k += 1
+
+def main():
+    array = [1, 2, 3, 4, 5]
+    merge_sort(array)
+
+if __name__ == '__main__':
+    main() 
