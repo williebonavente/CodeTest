@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KochSnowflake",
+            "request": "launch",
+            "mainClass": "KochSnowflake",
+            "projectName": "trash_codes-1_e5c49d73"
+        },
+        {
+            "type": "java",
             "name": "BresenhamLine",
             "request": "launch",
             "mainClass": "BresenhamLine",
