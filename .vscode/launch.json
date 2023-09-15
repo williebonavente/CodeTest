@@ -22,6 +22,13 @@
             "projectName": "trash_codes-1_e5c49d73"
         },
         {
+            "type": "java",
+            "name": "VanEckSequencer",
+            "request": "launch",
+            "mainClass": "VanEckSequence",
+            "projectName": "trash_codes-1_e5c49d73"
+        },
+        {
             "name": "C/C++: gcc.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
