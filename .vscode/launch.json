@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BresenhamLine",
+            "request": "launch",
+            "mainClass": "BresenhamLine",
+            "projectName": "trash_codes-1_e5c49d73"
+        },
+        {
+            "type": "java",
             "name": "EllersMazeGenerator",
             "request": "launch",
             "mainClass": "EllersMazeGenerator",
