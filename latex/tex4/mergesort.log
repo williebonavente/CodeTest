@@ -1,0 +1,243 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.16)  16 SEP 2023 23:11
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex4/mergesort.tex
+(c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex4/mergesort.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(E:\AppData\Local\MikeTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(E:\AppData\Local\MikeTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (E:\AppData\Local\MikeTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (E:\AppData\Local\MikeTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (E:\AppData\Local\MikeTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (E:\AppData\Local\MikeTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+ (E:\AppData\Local\MikeTeX\tex/latex/geometry\geometry.cfg)) (E:\AppData\Local\MikeTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count196
+ (E:\AppData\Local\MikeTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip50
+ (E:\AppData\Local\MikeTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count197
+) (E:\AppData\Local\MikeTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (E:\AppData\Local\MikeTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip51
+\skiplinenumber=\skip52
+\skiprule=\skip53
+\skiphlne=\skip54
+\skiptext=\skip55
+\skiplength=\skip56
+\algomargin=\skip57
+\skipalgocfslide=\skip58
+\algowidth=\dimen149
+\inoutsize=\dimen150
+\inoutindent=\dimen151
+\interspacetitleruled=\dimen152
+\interspacealgoruled=\dimen153
+\interspacetitleboxruled=\dimen154
+\algocf@ruledwidth=\skip59
+\algocf@inoutbox=\box51
+\algocf@inputbox=\box52
+\AlCapSkip=\skip60
+\AlCapHSkip=\skip61
+\algoskipindent=\skip62
+\algocf@nlbox=\box53
+\algocf@hangingbox=\box54
+\algocf@untilbox=\box55
+\algocf@skipuntil=\skip63
+\algocf@capbox=\box56
+\algocf@lcaptionbox=\skip64
+\algoheightruledefault=\skip65
+\algoheightrule=\skip66
+\algotitleheightruledefault=\skip67
+\algotitleheightrule=\skip68
+\c@algocfline=\count198
+\c@algocfproc=\count199
+\c@algocf=\count266
+\algocf@algoframe=\box57
+\algocf@algobox=\box58
+) (E:\AppData\Local\MikeTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count267
+\l__pdf_internal_box=\box59
+) (mergesort.aux)
+\openout1 = `mergesort.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=624.25346pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+
+LaTeX Warning: Reference `alg:two' on page 1 undefined on input line 29.
+
+
+LaTeX Warning: Reference `alg:three' on page 1 undefined on input line 29.
+
+c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex4/mergesort.tex:147: Undefined control sequence.
+<argument> $i < \text 
+                      {length of } L$ \textbf {and} $j < \text {length of } R$
+l.147 \end
+          {algorithm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex4/mergesort.tex:147: Undefined control sequence.
+<argument> ...th of } L$ \textbf {and} $j < \text 
+                                                  {length of } R$
+l.147 \end
+          {algorithm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex4/mergesort.tex:147: Undefined control sequence.
+<argument> $i < \text 
+                      {length of } L$
+l.147 \end
+          {algorithm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex4/mergesort.tex:147: Undefined control sequence.
+<argument> $j < \text 
+                      {length of } R$
+l.147 \end
+          {algorithm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(mergesort.loa)
+\tf@loa=\write3
+\openout3 = `mergesort.loa'.
+
+ [1
+
+{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (mergesort.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2141 strings out of 475247
+ 36464 string characters out of 5767175
+ 1935801 words of memory out of 5000000
+ 23695 multiletter control sequences out of 15000+600000
+ 562594 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,65p,400b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on mergesort.pdf (4 pages, 145013 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
