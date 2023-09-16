@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694876240 "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex2/bubblesort.tex" "bubblesort.pdf" "bubblesort" 1694876241 0
+["pdflatex"] 1694876392 "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex3/binarySearch.tex" "binarySearch.pdf" "binarySearch" 1694876393 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694876235 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694875046 24132694 57750d8f646b834395f6135a3196d64d ""
   "E:/AppData/Local/MikeTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -18,6 +18,7 @@
   "E:/AppData/Local/MikeTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
   "E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
+  "E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -38,13 +39,13 @@
   "E:/AppData/Local/MikeTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
   "E:/AppData/Local/MikeTeX/tex/latex/relsize/relsize.sty" 1365244030 15542 c4cc3164fe24f2f2fbb06eb71b1da4c4 ""
   "E:/AppData/Local/MikeTeX/tex/latex/tools/xspace.sty" 1686255640 4545 9f5ea23ab1c91476c42749893f790666 ""
-  "bubblesort.aux" 1694876240 395 4bfd64a3cc00fb6d03966ac0ad114e30 "pdflatex"
-  "bubblesort.loa" 1694876240 170 eecdda88dd21918cd95431583d330823 "pdflatex"
-  "bubblesort.tex" 1694876238 3155 d2620e7e4469f87c526eb96cfcf0be0e ""
-  "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex2/bubblesort.tex" 1694876238 3155 d2620e7e4469f87c526eb96cfcf0be0e ""
+  "binarySearch.aux" 1694876392 564 a7c39508ae145feb32ef899ffa51963c "pdflatex"
+  "binarySearch.loa" 1694876392 255 ea88c20e1535007603de8e65b01621c4 "pdflatex"
+  "binarySearch.tex" 1694876389 3844 2b0f54c4c49682fce5ef99f87ab95756 ""
+  "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex3/binarySearch.tex" 1694876389 3844 2b0f54c4c49682fce5ef99f87ab95756 ""
   (generated)
-  "bubblesort.aux"
-  "bubblesort.loa"
-  "bubblesort.log"
-  "bubblesort.pdf"
+  "binarySearch.aux"
+  "binarySearch.loa"
+  "binarySearch.log"
+  "binarySearch.pdf"
   (rewritten before read)
