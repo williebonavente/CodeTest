@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[margin=3cm]{geometry}
 \usepackage{algorithm2e}
+
 \begin{document}
 
 Here we demonstrate how algorithms or pseudocode can be typeset using the \verb|algorithm| environment provided by the \verb|algorithm2e| package.
@@ -29,7 +30,7 @@ You can then use \verb|\label{...}| after the \verb|\caption| so that the algori
 
 By default, the \verb|plain| algorithm style is used. But if you prefer lines around the algorithm and caption, you can add the \verb|ruled| package option when loading \verb|algorithm2e|, or write \verb|\RestyleAlgo{ruled}| in your document.
 
-\RestyleAlgo{ruled} 
+\RestyleAlgo{ruled}
 
 %% This is needed if you want to add comments in
 %% your algorithm with \Comment
@@ -56,25 +57,22 @@ $N \gets n$\;
 
 The \verb|algorithm| environment is a \emph{float}, like \verb|table| and \verb|figure|, so you can add float placement modifiers \verb|[hbt!]| after \verb|\begin{algorithm}| if necessary.
 
-\begin{algorithm}
-\caption{Another algorithm with caption}\label{alg:three}
-\KwData{Write here the required data}
-\KwResult{Write here the expected result}
- initialization\;
- \While{While condition}{
-  instructions\;
-  \eIf{condition}{
-   instructions1\;
-   instructions2\;
-   }{
-   instructions3\;
-  }
- }
+% Bubble Sort Algorithm
+\begin{algorithm}[hbt!]
+\caption{Bubble Sort Algorithm}\label{alg:bubble_sort}
+\KwData{An array $A$ of $n$ elements}
+\KwResult{The array $A$ sorted in non-decreasing order}
+\For{$i \gets 0$ \KwTo $n-1$}{
+    \For{$j \gets 0$ \KwTo $n-i-1$}{
+        \If{$A[j] > A[j+1]$}{
+            swap $A[j]$ and $A[j+1]$\;
+        }
+    }
+}
 \end{algorithm}
 
 The \verb|algorithm2e| package also provides a \verb|\listofalgorithms| command that works like \verb|\listoffigures|, but for captioned algorithms:
 
 \listofalgorithms
-
 
 \end{document}

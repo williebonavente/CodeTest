@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694875865 "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex1/algo.tex" "algo.pdf" "algo" 1694875866 0
+["pdflatex"] 1694875990 "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex2/bubblesort.tex" "bubblesort.pdf" "bubblesort" 1694875991 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694875231 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694875046 24132694 57750d8f646b834395f6135a3196d64d ""
   "E:/AppData/Local/MikeTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -38,13 +38,13 @@
   "E:/AppData/Local/MikeTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
   "E:/AppData/Local/MikeTeX/tex/latex/relsize/relsize.sty" 1365244030 15542 c4cc3164fe24f2f2fbb06eb71b1da4c4 ""
   "E:/AppData/Local/MikeTeX/tex/latex/tools/xspace.sty" 1686255640 4545 9f5ea23ab1c91476c42749893f790666 ""
-  "algo.aux" 1694875866 398 1222ac0bb5d86ee320ba211e0ff9df3e "pdflatex"
-  "algo.loa" 1694875866 179 34c488a1b90b6539811aece10512ef1b "pdflatex"
-  "algo.tex" 1694875864 2935 22f09c20bbe4e863188e46054a2120ec ""
-  "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex1/algo.tex" 1694875864 2935 22f09c20bbe4e863188e46054a2120ec ""
+  "bubblesort.aux" 1694875991 395 4bfd64a3cc00fb6d03966ac0ad114e30 "pdflatex"
+  "bubblesort.loa" 1694875991 170 eecdda88dd21918cd95431583d330823 "pdflatex"
+  "bubblesort.tex" 1694875987 2978 8a5b9d490ffdf207a6e036de5a18aef5 ""
+  "c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex2/bubblesort.tex" 1694875987 2978 8a5b9d490ffdf207a6e036de5a18aef5 ""
   (generated)
-  "algo.aux"
-  "algo.loa"
-  "algo.log"
-  "algo.pdf"
+  "bubblesort.aux"
+  "bubblesort.loa"
+  "bubblesort.log"
+  "bubblesort.pdf"
   (rewritten before read)

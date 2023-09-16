@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.16)  16 SEP 2023 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.16)  16 SEP 2023 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex1/algo.tex
-(c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex1/algo.tex
+**c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex2/bubblesort.tex
+(c:/Users/USER/OneDrive/Desktop/Temp/Random_Programming/trash_codes-1/latex/tex2/bubblesort.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (E:\AppData\Local\MikeTeX\tex/latex/base\article.cls
@@ -99,23 +99,23 @@ Package: relsize 2013/03/29 ver 4.1
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
 \l__pdf_internal_box=\box59
-) (algo.aux)
-\openout1 = `algo.aux'.
+) (bubblesort.aux)
+\openout1 = `bubblesort.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -152,33 +152,40 @@ LaTeX Font Info:    ... okay on input line 4.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 13.
+(Font)              <10.95> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 14.
+
+LaTeX Warning: Reference `alg:three' on page 1 undefined on input line 29.
+
 [1
 
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (algo.loa)
+{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (bubblesort.loa)
 \tf@loa=\write3
-\openout3 = `algo.loa'.
+\openout3 = `bubblesort.loa'.
 
- [2] (algo.aux)
+ [2] (bubblesort.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 2136 strings out of 475247
- 36295 string characters out of 5767175
+ 2137 strings out of 475247
+ 36420 string characters out of 5767175
  1926801 words of memory out of 5000000
- 23691 multiletter control sequences out of 15000+600000
+ 23692 multiletter control sequences out of 15000+600000
  562235 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,65p,395b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,16n,65p,401b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:/AppData/Local/MikeTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on algo.pdf (2 pages, 118207 bytes).
+Output written on bubblesort.pdf (2 pages, 118684 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
