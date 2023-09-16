@@ -55,7 +55,6 @@ By default, the \verb|plain| algorithm style is used. But if you prefer lines ar
     }
 \end{algorithm}
 
-The \verb|algorithm| environment is a \emph{float}, like \verb|table| and \verb|figure|, so you can add float placement modifiers \verb|[hbt!]| after \verb|\begin{algorithm}| if necessary.
 
 % Bubble Sort Algorithm
 \begin{algorithm}[hbt!]
@@ -70,6 +69,30 @@ The \verb|algorithm| environment is a \emph{float}, like \verb|table| and \verb|
         }
     }
 \end{algorithm}
+
+% Binary Search Algorithm
+
+\begin{algorithm}[hbt!]
+    \caption{Binary Search Algorithm}\label{alg:binary_search}
+    \KwData{An array $A$ of $n$ elements sorted in non-decreasing order, and a search key $x$}
+    \KwResult{The index of $x$ in $A$, or $-1$ if $x$ is not found}
+    $low \gets 0$\;
+    $high \gets n - 1$\;
+    \While{$low \leq high$}{
+        $mid \gets \left\lfloor\frac{low + high}{2}\right\rfloor$ \Comment*[r]{Compute the midpoint}
+        \If{$A[mid] = x$}{
+            \Return $mid$ \Comment*[r]{Found $x$ at index $mid$}
+        }
+        \If{$A[mid] < x$}{
+            $low \gets mid + 1$ \Comment*[r]{$x$ must be in the right half}
+        }
+        \Else{
+            $high \gets mid - 1$ \Comment*[r]{$x$ must be in the left half}
+        }
+    }
+    \Return $-1$ \Comment*[r]{$x$ is not in the array}
+    \end{algorithm}
+    
 
 The \verb|algorithm2e| package also provides a \verb|\listofalgorithms| command that works like \verb|\listoffigures|, but for captioned algorithms:
 
