@@ -26,7 +26,7 @@ These properties are:
 ## Effectiveness
 
 - It must be possible to perform each step of an algorithm exactly and in a finite amount of time.
-  
+
 ## Generality
 
 - The procedure should be applicable for all problems of the desired from, not just for a particular set of input values.
