@@ -1,7 +1,13 @@
-# Calculate the rationalized form
-numerator = 9 * (2 ** (-1/4))
-denominator = 2
+import sympy as sp
 
-result = numerator / denominator
+# Define the variables
+x = sp.symbols('x')
 
-print("Rationalized form:", result)
+# Define the expression
+expr = 9 / (2 ** (1/4))
+
+# Rationalize the expression
+rationalized_expr = sp.Rationalize(expr)
+
+# Print the result in sqrt format
+sp.pretty(rationalized_expr, use_unicode=True)
