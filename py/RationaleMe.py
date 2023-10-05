@@ -1,13 +1,11 @@
-import sympy as sp
+from sympy import sqrt, simplify
 
-# Define the variables
-x = sp.symbols('x')
+# Original expression
+expression = 9 / (sqrt(2)**(1/4))
 
-# Define the expression
-expr = 9 / (2 ** (1/4))
+# Rationalize the denominator
+rationalized_expression = expression * (sqrt(2)**(3/4)) / (sqrt(2)**(3/4))
+simplified_expression = simplify(rationalized_expression)
 
-# Rationalize the expression
-rationalized_expr = sp.Rationalize(expr)
-
-# Print the result in sqrt format
-sp.pretty(rationalized_expr, use_unicode=True)
+print("Original Expression:", expression)
+print("Rationalized Expression:", simplified_expression)
